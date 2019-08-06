@@ -1,8 +1,8 @@
 {
-  "name": "js-task-get-pages",
+  "name": "js-task-paginate",
   "version": "1.0.0",
-  "description": "js task get-pages",
-  "main": "src/get-pages.js",
+  "description": "js task paginate",
+  "main": "src/paginate.js",
   "scripts": {
     "test": "jest",
     "lint": "eslint **/*.js"
@@ -32,5 +32,8 @@
       "pre-commit": "lint-staged",
       "pre-push": "npm run test"
     }
+  },
+  "dependencies": {
+    "jest-cli": "^24.8.0"
   }
 }
