@@ -13,7 +13,7 @@
  *
  * @return {array}
  */
-const paginate = ({ items, perPage, currentPage }) => {
+const paginate = () => {
   // write code here
 };
 
